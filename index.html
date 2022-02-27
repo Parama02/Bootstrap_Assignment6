@@ -11,9 +11,9 @@
 </head>
 <body>
 
-    <!---header-->
+    <!---header for lg and wider-->
 
-    <header class="p-3 mb-5" style="background-color:rgba(0, 131, 102, 0.945);">
+    <header class="d-none d-lg-block p-3 mb-5" style="background-color: #128c7e;">
 
         <div class="d-flex justify-content-evenly">
             <div class="ms-1">
@@ -45,9 +45,39 @@
 
     </header>
 
+    <!--header for smaller than lg-->
+
+    <header class="d-lg-none" style="background-color: #128c7e;">
+
+        <div class="container">
+
+            <div class="m-auto">
+                <div class="float-end">
+                    <a class="fw-bold text-decoration-none text-white d-inline" href="#">☰</a>
+                </div>
+    
+                <div class="d-flex justify-content-center">
+                    <img src="whatsapp-logo-png-hd-2.png" class="img-fluid w-25 mt-5">
+                </div>
+    
+                <div class="text-center text-white">
+                    <div class="content">
+                        <p class="h4 fw-bold mt-3">Simple. Secure.
+                            Reliable messaging.</p>
+                        <p class="fs-6 mb-3">With WhatsApp, you'll get fast, simple, secure messaging and calling for free*, available on phones all over the world.</p>
+                        <div class="">
+                            <img src="btm-right.png" class="img-fluid w-75">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
     <!--section1-->
 
-    <section class="mb-5">
+    <section class="d-none d-lg-block mb-5">
         <div class="container">
             <div class="d-flex">
                 <div class="left-part me-5 float-strat">
@@ -75,37 +105,85 @@
         </div>
     </section>
 
-    <!--section2-->
+    <!--section2 for smaller than lg-->
 
-    <section class="me-5">
+    <section class="container">
 
-        <div class="d-flex">
-            <div class="text-center me-2 ms-2 w-100 h-100 p-2" style="background-color:rgb(213, 230, 236);">
+        <div class="d-lg-none">
 
-                <div class="top-half">
-                    <p class="h2 mb-3">WhatsApp Business App</p>
-                    <a class="text-decoration-none text-info fs-5" href="#">WhatsApp Business</a>
-                    <small class="fs-5">is a free to download app that was built with the small business owner in mind. Create a catalog to showcase your products and services. Connect with your customers easily by using tools to automate, sort and quickly respond to messages.
+            <div>
+                <div class="text-center">
     
-                        WhatsApp can also help medium and large businesses provide customer support and deliver important notifications to customers. Learn more about</small>
-                    <a class="text-decoration-none text-info fs-5" href="#">WhatsApp Business API</a>
+                    <div class="text-center me-2 ms-2 w-100 h-100 p-2" style="background-color:rgb(213, 230, 236);">
+                        <p class="h2 mb-3">WhatsApp Business App</p>
+                        <a class="text-decoration-none text-info fs-5" href="#">WhatsApp Business</a>
+                        <small class="fs-5">is a free to download app that was built with the small business owner in mind. Create a catalog to showcase your products and services. Connect with your customers easily by using tools to automate, sort and quickly respond to messages.
+        
+                            WhatsApp can also help medium and large businesses provide customer support and deliver important notifications to customers. Learn more about</small>
+                        <a class="text-decoration-none text-info fs-5" href="#">WhatsApp Business API</a>
+                        <div class="btm-half">
+                            <img src="btm_left.png" class="img-fluid mt-5 w-50">
+                        </div>
+                    </div>    
+    
                 </div>
-                <div class="btm-half">
-                    <img src="btm_left.png" class="img-fluid mt-5 w-50">
+    
+                <div>
+    
+                    <div class="text-center ms-2 me-2 w-100 h-100 p-2" style="background-color:rgb(233, 249, 255);">
+                        <img src="hello.png" class="img-fluid mt-5 mb-5 w-50">
+                    
+    
+                        <div class="btm-half">
+                        <p class="h6 text-secondary">END-TO-END ENCRYPTION</p>
+                        <p class="h2">Security by Default</p>
+                        <p class="fs-5 pb-4">Some of your most personal moments are shared on WhatsApp, which is why we built end-to-end encryption into the latest versions of our app. When end-to-end encrypted, your messages and calls are secured so only you and the person you're communicating with can read or listen to them, and nobody in between, not even WhatsApp.</p>
+                        </div>
+                    </div>
+    
                 </div>
-
             </div>
 
-            <div class="text-center ms-2 me-2 w-100 h-100 p-2" style="background-color:rgb(233, 249, 255);">
+        </div>
 
-                <div class="top-half">
-                    <img src="hello.png" class="img-fluid mt-5 mb-5 w-50">
+    </section>
+
+    <!--section2 for lg and wider-->
+
+    <section class="container">
+
+        <div class="d-none d-lg-block">
+
+            <div class="d-flex">
+                <div class="m-auto">
+    
+                    <div class="text-center me-2 ms-2 w-100 h-100 p-2" style="background-color:rgb(213, 230, 236);">
+                        <p class="h2 mb-3">WhatsApp Business App</p>
+                        <a class="text-decoration-none text-info fs-5" href="#">WhatsApp Business</a>
+                        <small class="fs-5">is a free to download app that was built with the small business owner in mind. Create a catalog to showcase your products and services. Connect with your customers easily by using tools to automate, sort and quickly respond to messages.
+        
+                            WhatsApp can also help medium and large businesses provide customer support and deliver important notifications to customers. Learn more about</small>
+                        <a class="text-decoration-none text-info fs-5" href="#">WhatsApp Business API</a>
+                        <div class="btm-half">
+                            <img src="btm_left.png" class="img-fluid mt-5 w-50">
+                        </div>
+                    </div>    
+    
                 </div>
-
-                <div class="btm-half">
-                    <p class="h6 text-secondary">END-TO-END ENCRYPTION</p>
-                    <p class="h2">Security by Default</p>
-                    <p class="fs-5">Some of your most personal moments are shared on WhatsApp, which is why we built end-to-end encryption into the latest versions of our app. When end-to-end encrypted, your messages and calls are secured so only you and the person you're communicating with can read or listen to them, and nobody in between, not even WhatsApp.</p>
+    
+                <div class="m-auto">
+    
+                    <div class="text-center ms-2 me-2 w-100 h-100 p-2" style="background-color:rgb(233, 249, 255);">
+                        <img src="hello.png" class="img-fluid mt-5 mb-5 w-50">
+                    
+    
+                        <div class="btm-half">
+                        <p class="h6 text-secondary">END-TO-END ENCRYPTION</p>
+                        <p class="h2">Security by Default</p>
+                        <p class="fs-5 pb-4">Some of your most personal moments are shared on WhatsApp, which is why we built end-to-end encryption into the latest versions of our app. When end-to-end encrypted, your messages and calls are secured so only you and the person you're communicating with can read or listen to them, and nobody in between, not even WhatsApp.</p>
+                        </div>
+                    </div>
+    
                 </div>
             </div>
 
@@ -115,15 +193,19 @@
 
     <!--section3-->
 
-    <section class="d-flex justify-content-center mt-5 mb-5">
+    <section class="container">
 
-        <button type="button" class="btn btn-outline-success rounded-pill btn-lg mt-5 mb-5">EXPLORE FEATURES</button>
+        <div class="d-flex justify-content-center mt-5 mb-5">
+
+            <button type="button" class="btn btn-outline-success rounded-pill btn-lg mt-5 mb-5">EXPLORE FEATURES</button>
+            
+        </div>
 
     </section>
 
-    <!--section4-->
+    <!--section4 for lg-xxl -->
 
-    <section class="p-5" style="background-color: rgb(40, 37, 51);">
+    <section class="d-none d-lg-block p-5" style="background-color: rgb(40, 37, 51);">
 
         <div class="container">
 
@@ -192,15 +274,104 @@
 
     </section>
 
-    <!--footer-->
 
-    <footer class="bg-black">
+    <!--section4 for xs-md -->
+
+    <section class="d-lg-none p-5" style="background-color: rgb(40, 37, 51);">
+
+        <div class="container">
+
+            <div class="d-flex justify-content-evenly">
+
+                <div class="part1">
+
+                    <div class="row">
+                        <p class="h5 mb-5 text-white fw-bold">WHATSAPP</p>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Features</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Security</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Download</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">WhatsApp Web</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Business</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Privacy</a>
+                    </div>
+
+                </div>
+
+                <div class="part2 ms-3">
+
+                    <div class="row">
+
+                        <p class="h5 mb-5 text-white fw-bold">COMPANY</p>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">About</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Careers</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Brand Center</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Get in touch</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Blog</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">WhatsApp Stories</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="d-flex justify-content-evenly mt-5">
+
+                <div class="part3">
+
+                    <div class="row">
+    
+                        <p class="h5 mb-5 text-white fw-bold">DOWNLOAD</p>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Mac/PC</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Android</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">iPhone</a>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="part4 ms-5">
+    
+                    <div class="row">
+    
+                        <p class="h5 mb-5 text-white fw-bold">HELP</p>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Help Center</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Twitter</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Facebook</a>
+                        <a class="text-decoration-none mb-2 fs-5 text-white" href="#">Coronavirus</a>
+    
+                    </div>
+    
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!--footer for lg-xxl -->
+
+    <footer class="d-none d-lg-block bg-black">
 
         <div class="container">
             <div class="d-flex justify-content-between">
                 <p class="text-white fw-bold">2022 © WhatsApp LLC</p>
                 <a class="text-white fw-bold text-decoration-none" href="#">Privacy & Terms ></a>
             </div>
+
+        </div>
+
+    </footer> 
+
+    <!--footer for xs-md -->
+
+    <footer class="d-lg-none bg-black">
+
+        <div class="container">
+                <p class="text-white fw-bold">2022 © WhatsApp LLC</p>
+                <a class="text-white fw-bold text-decoration-none" href="#">Privacy & Terms ></a>
 
         </div>
 
